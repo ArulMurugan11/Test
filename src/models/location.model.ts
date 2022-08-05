@@ -14,6 +14,11 @@ export class Location extends Entity {
     required: true,
   })
   location_name: string;
+  @property({
+    type: 'string',
+    required: true,
+  })
+  location_pl: string;
 
   @property({
     type: 'string',
