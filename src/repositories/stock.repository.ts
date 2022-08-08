@@ -9,8 +9,11 @@ export class StockRepository extends DefaultCrudRepository<
   StockRelations
 > {
   constructor(
-    @inject('datasources.mysqlconnection') dataSource: MysqlconnectionDataSource,
+    @inject('datasources.mysqlconnection')
+    dataSource: MysqlconnectionDataSource,
   ) {
     super(Stock, dataSource);
   }
 }
+
+//parani
